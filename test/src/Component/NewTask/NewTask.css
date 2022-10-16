@@ -1,0 +1,105 @@
+.form {
+    display: flex;
+}
+
+.new-task {
+    width: 500px;
+    border: 2px solid rgb(3, 165, 206);
+    border-radius: 5px;
+    padding: 30px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.new-task h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #555;
+    text-align: center;
+}
+
+.new-task form input,
+.new-task form button,
+.replaced {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    padding: 0 5px;
+    outline: rgb(3, 165, 206);
+    border: 1px solid rgb(3, 165, 206);
+}
+
+#description {
+    width: 100%;
+    height: 150px;
+    margin: 10px 0;
+    padding: 0 5px;
+    outline: rgb(3, 165, 206);
+    border: 1px solid rgb(3, 165, 206);
+}
+
+.new-task form .row_id {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-task form button {
+    width: 100%;
+    background: rgb(3, 165, 206);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.new-task form a {
+    color: orange;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
+
+#search {
+    width: 502px;
+}
+
+.replaced {
+    width: 110%;
+    height: 42px;
+    margin: 10px 0;
+    padding: 0 5px;
+    outline: rgb(3, 165, 206);
+    border: 1px solid rgb(3, 165, 206);
+}
+
+.two-cols {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.group-buttons {
+    display: flex;
+    margin: 5px;
+}
+
+#done,
+#remove {
+    width: 100px;
+    border-radius: 8px;
+    font-size: 10px;
+    height: 30px;
+}
+
+#done {
+    margin-right: 10px;
+}
+
+#remove {
+    background-color: red;
+}

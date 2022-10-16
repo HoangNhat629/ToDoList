@@ -1,0 +1,37 @@
+.task {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(3, 165, 206);
+    padding: 5px;
+}
+
+.detail-action {
+    width: 500px;
+    display: flex;
+    border-right: 2px solid rgb(3, 165, 206);
+    border-left: 2px solid rgb(3, 165, 206);
+    border-bottom: 2px solid rgb(3, 165, 206);
+    padding: 5px;
+    justify-content: center;
+}
+
+#detail,
+#delete {
+    width: 100px;
+    border-radius: 8px;
+    font-size: 10px;
+    height: 30px;
+}
+
+#detail {
+    margin-right: 10px;
+}
+
+#delete {
+    background-color: red;
+}
+
+#check {
+    width: 25px;
+}

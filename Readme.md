@@ -8,7 +8,7 @@ ToDo List
 # install dependencies
 npm install
 
-# serve at localhost:3000
+# server at localhost:3000
 npm start
 ```
  ## Functions:
